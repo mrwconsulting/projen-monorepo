@@ -1,5 +1,5 @@
 {
-  "name": "projen-monorepo",
+  "name": "@mrwconsulting/projen-monorepo",
   "repository": {
     "type": "git",
     "url": "https://github.com/mrwconsulting/projen-monorepo.git"
@@ -35,17 +35,17 @@
     "organization": false
   },
   "devDependencies": {
-    "@types/jest": "^28.1.4",
+    "@types/jest": "^27.5.2",
     "@types/node": "^14",
     "@typescript-eslint/eslint-plugin": "^5",
     "@typescript-eslint/parser": "^5",
-    "aws-cdk-lib": "2.1.0",
+    "aws-cdk-lib": "2.31.0",
     "constructs": "10.0.5",
     "eslint": "^8",
     "eslint-import-resolver-node": "^0.3.6",
-    "eslint-import-resolver-typescript": "^3.2.5",
+    "eslint-import-resolver-typescript": "^3.2.4",
     "eslint-plugin-import": "^2.26.0",
-    "jest": "^28.1.2",
+    "jest": "^27.5.1",
     "jest-junit": "^13",
     "jsii": "^1.61.0",
     "jsii-diff": "^1.61.0",
@@ -55,11 +55,11 @@
     "npm-check-updates": "^12",
     "projen": "^0.58.21",
     "standard-version": "^9",
-    "ts-jest": "^28.0.5",
-    "typescript": "^4.7.4"
+    "ts-jest": "^27.1.4",
+    "typescript": "~3.9.7"
   },
   "peerDependencies": {
-    "aws-cdk-lib": "^2.1.0",
+    "aws-cdk-lib": "^2.31.0",
     "constructs": "^10.0.5"
   },
   "keywords": [
