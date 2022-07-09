@@ -1,3 +1,3 @@
-# Projen CDK-Monorepo Starter Project
+# Projen CDK Monorepo Starter Project
 
-### CDK-Monorepo
+### CDK Monorepo
