@@ -68,7 +68,7 @@
   "main": "lib/index.js",
   "license": "Apache-2.0",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
+    "registry": "https://gitlab.com/api/v4/projects/projen-monorepo/packages/npm/",
     "access": "latest"
   },
   "version": "0.0.0",

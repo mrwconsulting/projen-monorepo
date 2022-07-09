@@ -8,7 +8,9 @@ const project = new awscdk.AwsCdkConstructLibrary({
   packageName: '@mrwconsulting/projen-monorepo',
   repositoryUrl: 'https://github.com/mrwconsulting/projen-monorepo.git',
   npmAccess: 'latest',
-  npmRegistryUrl: 'https://npm.pkg.github.com',
+  npmRegistryUrl: 'https://gitlab.com/api/v4/projects/projen-monorepo/packages/npm/',
+  npmTokenSecret: 'WKjqwyPBVc3st59Xprh8',
   releaseToNpm: true,
+  github: false,
 });
 project.synth();
