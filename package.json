@@ -69,7 +69,7 @@
   "license": "Apache-2.0",
   "publishConfig": {
     "registry": "https://gitlab.com/api/v4/projects/37696809/packages/npm/",
-    "access": "latest"
+    "access": "public"
   },
   "version": "0.0.0",
   "jest": {
